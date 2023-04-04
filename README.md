@@ -7,8 +7,12 @@ Center Phobias Using Pyhton
 * pip install pybluez
 es una biblioteca que se usa para conectar el bluetooth
 * pip install git+https://github.com/pybluez/pybluez.git#egg=pybluez **Esta fue la que me funciono.**
+* pip install scipy
+* pip install PyQt5
+* pip install pyside6
+* 
 
-# Pasos para conectar el dispotivo
+# Pasos para conectar el dispositivo
 
 * 1- Encender bluetooth en ambos dispositivos.
 * 2- Emparejar los dispotivos PC-Smartwatch.
