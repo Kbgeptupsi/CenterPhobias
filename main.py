@@ -15,7 +15,6 @@ for device in devices:
 address = "24:16:03:00:80:8D" # Reemplaza esto con la dirección Bluetooth de tu smartwatch
 sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
 sock.connect((address, 1))
-
 # Lee los datos enviados a través de la conexión Bluetooth
 while True:
     data = sock.recv(1024)
